@@ -1,0 +1,678 @@
+2023/10/28 14:56:10 [notice] 1#1: using the "epoll" event method
+2023/10/28 14:56:10 [notice] 1#1: nginx/1.24.0
+2023/10/28 14:56:10 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/10/28 14:56:10 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/10/28 14:56:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/28 14:56:10 [notice] 1#1: start worker processes
+2023/10/28 14:56:10 [notice] 1#1: start worker process 20
+2023/10/28 14:56:10 [notice] 1#1: start worker process 21
+2023/10/28 14:56:10 [notice] 1#1: start worker process 22
+2023/10/28 14:56:10 [notice] 1#1: start worker process 23
+2023/10/28 14:56:10 [notice] 1#1: start worker process 24
+2023/10/28 14:56:10 [notice] 1#1: start worker process 25
+2023/10/28 17:26:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/28 17:26:47 [notice] 20#20: gracefully shutting down
+2023/10/28 17:26:47 [notice] 24#24: gracefully shutting down
+2023/10/28 17:26:47 [notice] 22#22: gracefully shutting down
+2023/10/28 17:26:47 [notice] 20#20: exiting
+2023/10/28 17:26:47 [notice] 25#25: gracefully shutting down
+2023/10/28 17:26:47 [notice] 21#21: gracefully shutting down
+2023/10/28 17:26:47 [notice] 24#24: exiting
+2023/10/28 17:26:47 [notice] 22#22: exiting
+2023/10/28 17:26:47 [notice] 20#20: exit
+2023/10/28 17:26:47 [notice] 23#23: gracefully shutting down
+2023/10/28 17:26:47 [notice] 24#24: exit
+2023/10/28 17:26:47 [notice] 22#22: exit
+2023/10/28 17:26:47 [notice] 25#25: exiting
+2023/10/28 17:26:47 [notice] 21#21: exiting
+2023/10/28 17:26:47 [notice] 23#23: exiting
+2023/10/28 17:26:47 [notice] 25#25: exit
+2023/10/28 17:26:47 [notice] 21#21: exit
+2023/10/28 17:26:47 [notice] 23#23: exit
+2023/10/28 17:26:47 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/10/28 17:26:47 [notice] 1#1: worker process 20 exited with code 0
+2023/10/28 17:26:47 [notice] 1#1: worker process 22 exited with code 0
+2023/10/28 17:26:47 [notice] 1#1: worker process 24 exited with code 0
+2023/10/28 17:26:47 [notice] 1#1: worker process 25 exited with code 0
+2023/10/28 17:26:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/28 17:26:47 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/10/28 17:26:47 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/10/28 17:26:47 [notice] 1#1: worker process 21 exited with code 0
+2023/10/28 17:26:47 [notice] 1#1: worker process 23 exited with code 0
+2023/10/28 17:26:47 [notice] 1#1: exit
+2023/10/28 17:26:54 [notice] 1#1: using the "epoll" event method
+2023/10/28 17:26:54 [notice] 1#1: nginx/1.24.0
+2023/10/28 17:26:54 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/10/28 17:26:54 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/10/28 17:26:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/28 17:26:54 [notice] 1#1: start worker processes
+2023/10/28 17:26:54 [notice] 1#1: start worker process 20
+2023/10/28 17:26:54 [notice] 1#1: start worker process 21
+2023/10/28 17:26:54 [notice] 1#1: start worker process 22
+2023/10/28 17:26:54 [notice] 1#1: start worker process 23
+2023/10/28 17:26:54 [notice] 1#1: start worker process 24
+2023/10/28 17:26:54 [notice] 1#1: start worker process 25
+2023/10/28 17:27:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/28 17:27:36 [notice] 21#21: gracefully shutting down
+2023/10/28 17:27:36 [notice] 22#22: gracefully shutting down
+2023/10/28 17:27:36 [notice] 22#22: exiting
+2023/10/28 17:27:36 [notice] 20#20: gracefully shutting down
+2023/10/28 17:27:36 [notice] 20#20: exiting
+2023/10/28 17:27:36 [notice] 24#24: gracefully shutting down
+2023/10/28 17:27:36 [notice] 23#23: gracefully shutting down
+2023/10/28 17:27:36 [notice] 25#25: gracefully shutting down
+2023/10/28 17:27:36 [notice] 21#21: exiting
+2023/10/28 17:27:36 [notice] 22#22: exit
+2023/10/28 17:27:36 [notice] 20#20: exit
+2023/10/28 17:27:36 [notice] 24#24: exiting
+2023/10/28 17:27:36 [notice] 23#23: exiting
+2023/10/28 17:27:36 [notice] 25#25: exiting
+2023/10/28 17:27:36 [notice] 21#21: exit
+2023/10/28 17:27:36 [notice] 25#25: exit
+2023/10/28 17:27:36 [notice] 24#24: exit
+2023/10/28 17:27:36 [notice] 23#23: exit
+2023/10/28 17:27:36 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/10/28 17:27:36 [notice] 1#1: worker process 20 exited with code 0
+2023/10/28 17:27:36 [notice] 1#1: worker process 22 exited with code 0
+2023/10/28 17:27:36 [notice] 1#1: worker process 23 exited with code 0
+2023/10/28 17:27:36 [notice] 1#1: worker process 24 exited with code 0
+2023/10/28 17:27:36 [notice] 1#1: worker process 25 exited with code 0
+2023/10/28 17:27:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/28 17:27:36 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/10/28 17:27:36 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/10/28 17:27:36 [notice] 1#1: worker process 21 exited with code 0
+2023/10/28 17:27:36 [notice] 1#1: exit
+2023/10/28 17:27:53 [notice] 1#1: using the "epoll" event method
+2023/10/28 17:27:53 [notice] 1#1: nginx/1.24.0
+2023/10/28 17:27:53 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/10/28 17:27:53 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/10/28 17:27:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/28 17:27:53 [notice] 1#1: start worker processes
+2023/10/28 17:27:53 [notice] 1#1: start worker process 20
+2023/10/28 17:27:53 [notice] 1#1: start worker process 21
+2023/10/28 17:27:53 [notice] 1#1: start worker process 22
+2023/10/28 17:27:53 [notice] 1#1: start worker process 23
+2023/10/28 17:27:53 [notice] 1#1: start worker process 24
+2023/10/28 17:27:53 [notice] 1#1: start worker process 25
+2023/10/28 17:34:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/28 17:34:03 [notice] 21#21: gracefully shutting down
+2023/10/28 17:34:03 [notice] 21#21: exiting
+2023/10/28 17:34:03 [notice] 23#23: gracefully shutting down
+2023/10/28 17:34:03 [notice] 20#20: gracefully shutting down
+2023/10/28 17:34:03 [notice] 25#25: gracefully shutting down
+2023/10/28 17:34:03 [notice] 24#24: gracefully shutting down
+2023/10/28 17:34:03 [notice] 22#22: gracefully shutting down
+2023/10/28 17:34:03 [notice] 22#22: exiting
+2023/10/28 17:34:03 [notice] 21#21: exit
+2023/10/28 17:34:03 [notice] 23#23: exiting
+2023/10/28 17:34:03 [notice] 23#23: exit
+2023/10/28 17:34:03 [notice] 20#20: exiting
+2023/10/28 17:34:03 [notice] 25#25: exiting
+2023/10/28 17:34:03 [notice] 24#24: exiting
+2023/10/28 17:34:03 [notice] 22#22: exit
+2023/10/28 17:34:03 [notice] 24#24: exit
+2023/10/28 17:34:03 [notice] 20#20: exit
+2023/10/28 17:34:03 [notice] 25#25: exit
+2023/10/28 17:34:03 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/10/28 17:34:03 [notice] 1#1: worker process 20 exited with code 0
+2023/10/28 17:34:03 [notice] 1#1: worker process 24 exited with code 0
+2023/10/28 17:34:03 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/28 17:34:03 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/10/28 17:34:03 [notice] 1#1: worker process 21 exited with code 0
+2023/10/28 17:34:03 [notice] 1#1: worker process 25 exited with code 0
+2023/10/28 17:34:03 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/28 17:34:03 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/10/28 17:34:03 [notice] 1#1: worker process 22 exited with code 0
+2023/10/28 17:34:03 [notice] 1#1: worker process 23 exited with code 0
+2023/10/28 17:34:03 [notice] 1#1: exit
+2023/10/28 17:35:08 [notice] 1#1: using the "epoll" event method
+2023/10/28 17:35:08 [notice] 1#1: nginx/1.24.0
+2023/10/28 17:35:08 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/10/28 17:35:08 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/10/28 17:35:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/28 17:35:08 [notice] 1#1: start worker processes
+2023/10/28 17:35:08 [notice] 1#1: start worker process 20
+2023/10/28 17:35:08 [notice] 1#1: start worker process 21
+2023/10/28 17:35:08 [notice] 1#1: start worker process 22
+2023/10/28 17:35:08 [notice] 1#1: start worker process 23
+2023/10/28 17:35:08 [notice] 1#1: start worker process 24
+2023/10/28 17:35:08 [notice] 1#1: start worker process 25
+2023/10/28 17:44:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/28 17:44:29 [notice] 20#20: gracefully shutting down
+2023/10/28 17:44:29 [notice] 21#21: gracefully shutting down
+2023/10/28 17:44:29 [notice] 23#23: gracefully shutting down
+2023/10/28 17:44:29 [notice] 24#24: gracefully shutting down
+2023/10/28 17:44:29 [notice] 22#22: gracefully shutting down
+2023/10/28 17:44:29 [notice] 25#25: gracefully shutting down
+2023/10/28 17:44:29 [notice] 20#20: exiting
+2023/10/28 17:44:29 [notice] 21#21: exiting
+2023/10/28 17:44:29 [notice] 23#23: exiting
+2023/10/28 17:44:29 [notice] 24#24: exiting
+2023/10/28 17:44:29 [notice] 22#22: exiting
+2023/10/28 17:44:29 [notice] 25#25: exiting
+2023/10/28 17:44:29 [notice] 20#20: exit
+2023/10/28 17:44:29 [notice] 21#21: exit
+2023/10/28 17:44:29 [notice] 23#23: exit
+2023/10/28 17:44:29 [notice] 24#24: exit
+2023/10/28 17:44:29 [notice] 22#22: exit
+2023/10/28 17:44:29 [notice] 25#25: exit
+2023/10/28 17:44:29 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/10/28 17:44:29 [notice] 1#1: worker process 20 exited with code 0
+2023/10/28 17:44:29 [notice] 1#1: worker process 22 exited with code 0
+2023/10/28 17:44:29 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/28 17:44:29 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/10/28 17:44:29 [notice] 1#1: worker process 23 exited with code 0
+2023/10/28 17:44:29 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/28 17:44:29 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/10/28 17:44:29 [notice] 1#1: worker process 21 exited with code 0
+2023/10/28 17:44:29 [notice] 1#1: worker process 24 exited with code 0
+2023/10/28 17:44:29 [notice] 1#1: worker process 25 exited with code 0
+2023/10/28 17:44:29 [notice] 1#1: exit
+2023/10/28 17:44:35 [notice] 1#1: using the "epoll" event method
+2023/10/28 17:44:35 [notice] 1#1: nginx/1.24.0
+2023/10/28 17:44:35 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/10/28 17:44:35 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/10/28 17:44:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/28 17:44:35 [notice] 1#1: start worker processes
+2023/10/28 17:44:35 [notice] 1#1: start worker process 20
+2023/10/28 17:44:35 [notice] 1#1: start worker process 21
+2023/10/28 17:44:35 [notice] 1#1: start worker process 22
+2023/10/28 17:44:35 [notice] 1#1: start worker process 23
+2023/10/28 17:44:35 [notice] 1#1: start worker process 24
+2023/10/28 17:44:35 [notice] 1#1: start worker process 25
+2023/10/28 17:48:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/28 17:48:11 [notice] 20#20: gracefully shutting down
+2023/10/28 17:48:11 [notice] 21#21: gracefully shutting down
+2023/10/28 17:48:11 [notice] 22#22: gracefully shutting down
+2023/10/28 17:48:11 [notice] 22#22: exiting
+2023/10/28 17:48:11 [notice] 23#23: gracefully shutting down
+2023/10/28 17:48:11 [notice] 24#24: gracefully shutting down
+2023/10/28 17:48:11 [notice] 25#25: gracefully shutting down
+2023/10/28 17:48:11 [notice] 20#20: exiting
+2023/10/28 17:48:11 [notice] 21#21: exiting
+2023/10/28 17:48:11 [notice] 22#22: exit
+2023/10/28 17:48:11 [notice] 23#23: exiting
+2023/10/28 17:48:11 [notice] 24#24: exiting
+2023/10/28 17:48:11 [notice] 25#25: exiting
+2023/10/28 17:48:11 [notice] 20#20: exit
+2023/10/28 17:48:11 [notice] 21#21: exit
+2023/10/28 17:48:11 [notice] 23#23: exit
+2023/10/28 17:48:11 [notice] 24#24: exit
+2023/10/28 17:48:11 [notice] 25#25: exit
+2023/10/28 17:48:11 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/10/28 17:48:11 [notice] 1#1: worker process 22 exited with code 0
+2023/10/28 17:48:11 [notice] 1#1: worker process 25 exited with code 0
+2023/10/28 17:48:11 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/28 17:48:11 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/10/28 17:48:11 [notice] 1#1: worker process 20 exited with code 0
+2023/10/28 17:48:11 [notice] 1#1: worker process 21 exited with code 0
+2023/10/28 17:48:11 [notice] 1#1: worker process 23 exited with code 0
+2023/10/28 17:48:11 [notice] 1#1: worker process 24 exited with code 0
+2023/10/28 17:48:11 [notice] 1#1: exit
+2023/10/28 17:48:18 [notice] 1#1: using the "epoll" event method
+2023/10/28 17:48:18 [notice] 1#1: nginx/1.24.0
+2023/10/28 17:48:18 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/10/28 17:48:18 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/10/28 17:48:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/28 17:48:18 [notice] 1#1: start worker processes
+2023/10/28 17:48:18 [notice] 1#1: start worker process 20
+2023/10/28 17:48:18 [notice] 1#1: start worker process 21
+2023/10/28 17:48:18 [notice] 1#1: start worker process 22
+2023/10/28 17:48:18 [notice] 1#1: start worker process 23
+2023/10/28 17:48:18 [notice] 1#1: start worker process 24
+2023/10/28 17:48:18 [notice] 1#1: start worker process 25
+2023/10/28 17:48:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/28 17:48:20 [notice] 20#20: gracefully shutting down
+2023/10/28 17:48:20 [notice] 22#22: gracefully shutting down
+2023/10/28 17:48:20 [notice] 21#21: gracefully shutting down
+2023/10/28 17:48:20 [notice] 23#23: gracefully shutting down
+2023/10/28 17:48:20 [notice] 24#24: gracefully shutting down
+2023/10/28 17:48:20 [notice] 25#25: gracefully shutting down
+2023/10/28 17:48:20 [notice] 20#20: exiting
+2023/10/28 17:48:20 [notice] 22#22: exiting
+2023/10/28 17:48:20 [notice] 21#21: exiting
+2023/10/28 17:48:20 [notice] 23#23: exiting
+2023/10/28 17:48:20 [notice] 24#24: exiting
+2023/10/28 17:48:20 [notice] 24#24: exit
+2023/10/28 17:48:20 [notice] 25#25: exiting
+2023/10/28 17:48:20 [notice] 25#25: exit
+2023/10/28 17:48:20 [notice] 20#20: exit
+2023/10/28 17:48:20 [notice] 22#22: exit
+2023/10/28 17:48:20 [notice] 21#21: exit
+2023/10/28 17:48:20 [notice] 23#23: exit
+2023/10/28 17:48:20 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/10/28 17:48:20 [notice] 1#1: worker process 20 exited with code 0
+2023/10/28 17:48:20 [notice] 1#1: worker process 22 exited with code 0
+2023/10/28 17:48:20 [notice] 1#1: worker process 23 exited with code 0
+2023/10/28 17:48:20 [notice] 1#1: worker process 24 exited with code 0
+2023/10/28 17:48:20 [notice] 1#1: worker process 25 exited with code 0
+2023/10/28 17:48:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/28 17:48:20 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/10/28 17:48:20 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/10/28 17:48:20 [notice] 1#1: worker process 21 exited with code 0
+2023/10/28 17:48:20 [notice] 1#1: exit
+2023/10/28 17:48:42 [notice] 1#1: using the "epoll" event method
+2023/10/28 17:48:42 [notice] 1#1: nginx/1.24.0
+2023/10/28 17:48:42 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/10/28 17:48:42 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/10/28 17:48:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/28 17:48:42 [notice] 1#1: start worker processes
+2023/10/28 17:48:42 [notice] 1#1: start worker process 20
+2023/10/28 17:48:42 [notice] 1#1: start worker process 21
+2023/10/28 17:48:42 [notice] 1#1: start worker process 22
+2023/10/28 17:48:42 [notice] 1#1: start worker process 23
+2023/10/28 17:48:42 [notice] 1#1: start worker process 24
+2023/10/28 17:48:42 [notice] 1#1: start worker process 25
+2023/10/28 17:49:10 [error] 20#20: *1 open() "/var/www/phpDemoSite/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /favicon.ico HTTP/1.1", host: "phpdemosite.loc", referrer: "http://phpdemosite.loc/"
+2023/10/28 17:54:47 [error] 22#22: *4 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/28 18:01:17 [error] 23#23: *6 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/28 18:01:17 [error] 23#23: *5 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/28 18:01:24 [error] 24#24: *7 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/28 18:01:25 [error] 23#23: *6 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/28 18:01:25 [error] 23#23: *5 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/28 18:01:32 [error] 24#24: *7 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/28 18:04:47 [error] 25#25: *8 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/28 18:14:47 [error] 21#21: *9 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/28 18:15:40 [error] 21#21: *10 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/28 18:15:40 [error] 21#21: *11 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/28 18:15:49 [error] 21#21: *12 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/28 18:15:49 [error] 21#21: *13 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/28 18:16:40 [error] 21#21: *12 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/28 18:24:47 [error] 21#21: *14 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 18:04:05 [notice] 1#1: using the "epoll" event method
+2023/10/30 18:04:05 [notice] 1#1: nginx/1.24.0
+2023/10/30 18:04:05 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/10/30 18:04:05 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/10/30 18:04:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/30 18:04:05 [notice] 1#1: start worker processes
+2023/10/30 18:04:05 [notice] 1#1: start worker process 20
+2023/10/30 18:04:05 [notice] 1#1: start worker process 21
+2023/10/30 18:04:05 [notice] 1#1: start worker process 22
+2023/10/30 18:04:05 [notice] 1#1: start worker process 23
+2023/10/30 18:04:05 [notice] 1#1: start worker process 24
+2023/10/30 18:04:05 [notice] 1#1: start worker process 25
+2023/10/30 18:04:26 [error] 22#22: *4 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 18:04:38 [error] 23#23: *5 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 18:04:46 [error] 23#23: *5 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 18:05:35 [error] 23#23: *5 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 18:07:43 [error] 25#25: *9 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 18:08:43 [error] 21#21: *13 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 18:11:36 [error] 21#21: *16 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 18:21:36 [error] 21#21: *30 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 18:31:36 [error] 21#21: *31 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 18:20:32 [error] 21#21: *32 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 18:30:32 [error] 21#21: *33 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 18:40:32 [error] 21#21: *34 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 18:50:32 [error] 21#21: *35 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 19:00:32 [error] 20#20: *36 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 19:10:32 [error] 20#20: *37 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 19:19:32 [error] 20#20: *38 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 22:15:15 [error] 20#20: *43 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 22:15:19 [error] 20#20: *44 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:19 [error] 22#22: *45 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:19 [error] 22#22: *46 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:19 [error] 20#20: *47 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:19 [error] 22#22: *48 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:19 [error] 20#20: *49 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:19 [error] 20#20: *50 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:19 [error] 20#20: *51 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:19 [error] 20#20: *53 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:19 [error] 20#20: *52 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:20 [error] 22#22: *54 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 22:15:24 [error] 22#22: *55 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:27 [error] 20#20: *44 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:27 [error] 22#22: *45 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:27 [error] 22#22: *46 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:27 [error] 22#22: *48 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:27 [error] 20#20: *47 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:27 [error] 20#20: *49 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:27 [error] 20#20: *50 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:27 [error] 20#20: *53 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:27 [error] 20#20: *52 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:15:35 [error] 22#22: *54 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 22:16:35 [error] 22#22: *56 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 22:20:10 [error] 22#22: *57 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:20:40 [error] 22#22: *58 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 22:26:35 [error] 22#22: *59 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 22:36:35 [error] 22#22: *60 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 22:46:35 [error] 22#22: *61 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 22:56:35 [error] 22#22: *62 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 23:05:12 [error] 22#22: *63 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 23:06:35 [error] 22#22: *64 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 23:16:35 [error] 22#22: *65 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/30 23:20:10 [error] 22#22: *66 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/30 23:26:35 [error] 23#23: *67 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/31 18:29:10 [error] 23#23: *68 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:11 [error] 23#23: *69 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/31 18:29:15 [error] 23#23: *70 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:15 [error] 23#23: *71 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:15 [error] 24#24: *72 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:15 [error] 25#25: *73 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:15 [error] 25#25: *74 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:15 [error] 23#23: *75 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:15 [error] 23#23: *76 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:15 [error] 23#23: *77 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:15 [error] 24#24: *79 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:15 [error] 23#23: *80 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:15 [error] 24#24: *78 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:16 [error] 23#23: *81 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/31 18:29:23 [error] 23#23: *70 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:23 [error] 23#23: *71 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:23 [error] 24#24: *72 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:23 [error] 25#25: *74 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:23 [error] 23#23: *75 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:23 [error] 23#23: *77 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:23 [error] 24#24: *78 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:23 [error] 23#23: *80 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:23 [error] 24#24: *79 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:29:31 [error] 23#23: *81 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/31 18:30:31 [error] 23#23: *82 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/31 18:31:44 [error] 23#23: *83 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:33:49 [error] 23#23: *84 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:34:07 [error] 23#23: *85 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 18:40:31 [error] 23#23: *86 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/31 18:50:31 [error] 23#23: *87 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/31 18:58:50 [error] 24#24: *88 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 19:00:31 [error] 24#24: *89 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/31 19:04:02 [error] 24#24: *90 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/31 19:14:02 [error] 24#24: *91 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/31 19:22:38 [error] 24#24: *96 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/10/31 19:24:02 [error] 24#24: *97 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/31 19:34:02 [error] 24#24: *109 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/31 19:44:02 [error] 25#25: *111 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/10/31 22:46:59 [error] 25#25: *112 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/01 08:16:11 [error] 25#25: *113 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/01 08:16:14 [error] 25#25: *114 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/01 08:16:15 [error] 25#25: *114 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/01 08:16:15 [error] 25#25: *116 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:15 [error] 25#25: *115 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:15 [error] 25#25: *117 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:15 [error] 25#25: *118 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:15 [error] 25#25: *119 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:15 [error] 25#25: *120 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:15 [error] 25#25: *121 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:15 [error] 25#25: *122 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:15 [error] 21#21: *123 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:23 [error] 25#25: *117 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:23 [error] 25#25: *116 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:23 [error] 25#25: *115 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:23 [error] 25#25: *119 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:23 [error] 25#25: *118 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:23 [error] 25#25: *120 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:23 [error] 25#25: *121 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:23 [error] 25#25: *122 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:23 [error] 21#21: *123 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:16:30 [error] 25#25: *114 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/01 08:16:55 [error] 25#25: *117 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:17:30 [error] 21#21: *124 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/01 08:19:25 [error] 21#21: *125 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:21:06 [error] 21#21: *126 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/01 08:27:30 [error] 21#21: *127 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/01 08:27:46 [error] 21#21: *128 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/01 11:28:02 [error] 21#21: *129 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:38 [error] 21#21: *130 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 13:59:50 [error] 21#21: *131 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:50 [error] 21#21: *132 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:50 [error] 21#21: *133 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:50 [error] 21#21: *134 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:50 [error] 21#21: *135 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:50 [error] 21#21: *136 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:50 [error] 20#20: *137 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:51 [error] 21#21: *138 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:51 [error] 20#20: *139 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:56 [error] 21#21: *140 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 13:59:58 [error] 21#21: *131 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:58 [error] 21#21: *132 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:58 [error] 21#21: *133 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:58 [error] 21#21: *134 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:58 [error] 21#21: *135 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:58 [error] 21#21: *136 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:58 [error] 20#20: *137 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:59 [error] 20#20: *139 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 13:59:59 [error] 21#21: *138 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 14:00:42 [error] 21#21: *131 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 14:00:56 [error] 20#20: *141 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 14:02:50 [error] 20#20: *142 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 14:02:50 [error] 20#20: *143 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 14:03:55 [error] 20#20: *144 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 14:04:23 [error] 20#20: *145 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 14:05:02 [error] 20#20: *146 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 14:10:56 [error] 20#20: *147 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 14:20:56 [error] 20#20: *148 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 14:30:56 [error] 20#20: *149 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 14:40:56 [error] 20#20: *150 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 14:43:07 [error] 20#20: *151 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 16:47:25 [error] 20#20: *152 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 16:47:30 [error] 20#20: *153 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:30 [error] 22#22: *155 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:30 [error] 20#20: *154 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:30 [error] 22#22: *156 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:30 [error] 23#23: *159 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:30 [error] 22#22: *157 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:30 [error] 24#24: *161 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:30 [error] 22#22: *158 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:30 [error] 24#24: *160 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:30 [error] 22#22: *162 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 16:47:30 [error] 22#22: *162 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 16:47:38 [error] 20#20: *153 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:38 [error] 20#20: *154 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:38 [error] 22#22: *155 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:38 [error] 22#22: *156 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:38 [error] 24#24: *161 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:38 [error] 23#23: *159 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:38 [error] 24#24: *160 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:38 [error] 22#22: *158 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:38 [error] 22#22: *157 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:47:45 [error] 22#22: *162 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 16:48:45 [error] 22#22: *163 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 16:52:21 [error] 22#22: *164 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 16:58:45 [error] 22#22: *165 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 17:01:37 [error] 22#22: *166 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 17:06:10 [error] 22#22: *167 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 17:08:25 [error] 22#22: *168 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 17:08:43 [error] 22#22: *169 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/02 17:11:37 [error] 22#22: *170 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 17:21:37 [error] 22#22: *171 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 17:31:37 [error] 22#22: *172 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 17:41:37 [error] 22#22: *173 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 17:51:37 [error] 23#23: *174 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 17:57:08 [error] 23#23: *175 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/02 20:57:44 [error] 24#24: *176 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/08 09:52:20 [error] 23#23: *179 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/08 09:52:23 [error] 23#23: *180 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/08 09:52:24 [error] 23#23: *181 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:24 [error] 23#23: *183 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:24 [error] 24#24: *185 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:24 [error] 23#23: *184 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:24 [error] 23#23: *182 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:25 [error] 23#23: *186 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:25 [error] 24#24: *187 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:25 [error] 23#23: *188 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:25 [error] 23#23: *189 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:27 [error] 23#23: *190 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:27 [error] 25#25: *193 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:27 [error] 24#24: *192 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:27 [error] 23#23: *191 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:27 [error] 21#21: *194 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:28 [error] 20#20: *196 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:28 [error] 20#20: *195 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:28 [error] 20#20: *198 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:28 [error] 20#20: *197 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:35 [error] 23#23: *190 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:36 [error] 24#24: *192 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:36 [error] 23#23: *191 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:36 [error] 20#20: *196 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:36 [error] 25#25: *193 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:36 [error] 21#21: *194 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:36 [error] 20#20: *195 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:36 [error] 20#20: *198 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:36 [error] 20#20: *197 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:52:38 [error] 23#23: *180 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/08 09:53:08 [error] 23#23: *190 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:53:35 [error] 25#25: *193 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:53:38 [error] 24#24: *199 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/08 09:57:15 [error] 24#24: *200 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 09:57:17 [error] 24#24: *201 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 10:02:16 [error] 24#24: *204 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/08 10:03:38 [error] 24#24: *205 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/08 10:13:38 [error] 24#24: *208 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/08 10:23:38 [error] 24#24: *209 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/08 10:33:38 [error] 24#24: *210 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/08 10:43:38 [error] 25#25: *211 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/08 14:02:00 [error] 25#25: *212 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/09 05:51:50 [error] 25#25: *213 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/09 05:52:02 [error] 25#25: *214 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:02 [error] 25#25: *216 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:02 [error] 21#21: *217 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:02 [error] 25#25: *215 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:02 [error] 25#25: *218 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:02 [error] 21#21: *219 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:02 [error] 20#20: *220 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:03 [error] 25#25: *222 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:03 [error] 21#21: *221 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:09 [error] 25#25: *223 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/09 05:52:10 [error] 25#25: *214 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:10 [error] 25#25: *216 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:10 [error] 21#21: *217 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:10 [error] 25#25: *215 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:10 [error] 20#20: *220 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:10 [error] 25#25: *218 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:10 [error] 21#21: *219 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:11 [error] 25#25: *222 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:11 [error] 21#21: *221 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:52:47 [error] 25#25: *214 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:53:09 [error] 25#25: *226 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/09 05:53:21 [error] 25#25: *227 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:54:04 [error] 21#21: *231 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:54:57 [error] 21#21: *232 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:56:25 [error] 21#21: *233 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/09 05:57:33 [error] 21#21: *234 open() "/var/www/phpDemoSite/basket.html" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /basket.html HTTP/1.1", host: "phpdemosite.loc"
+2023/11/09 05:57:39 [error] 21#21: *234 open() "/var/www/phpDemoSite/basket" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /basket HTTP/1.1", host: "phpdemosite.loc"
+2023/11/09 05:57:41 [error] 21#21: *234 open() "/var/www/phpDemoSite/basket.html" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /basket.html HTTP/1.1", host: "phpdemosite.loc"
+2023/11/09 05:58:06 [error] 21#21: *234 open() "/var/www/phpDemoSite/basket.html" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /basket.html HTTP/1.1", host: "phpdemosite.loc", referrer: "http://phpdemosite.loc/"
+2023/11/09 05:58:51 [error] 21#21: *234 open() "/var/www/phpDemoSite/basket.html" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /basket.html HTTP/1.1", host: "phpdemosite.loc", referrer: "http://phpdemosite.loc/"
+2023/11/09 06:03:09 [error] 21#21: *241 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/09 06:13:09 [error] 21#21: *246 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/09 06:23:09 [error] 20#20: *247 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/09 06:33:09 [error] 20#20: *248 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/10 12:32:13 [notice] 1#1: using the "epoll" event method
+2023/11/10 12:32:13 [notice] 1#1: nginx/1.24.0
+2023/11/10 12:32:13 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/11/10 12:32:13 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/11/10 12:32:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/10 12:32:13 [notice] 1#1: start worker processes
+2023/11/10 12:32:13 [notice] 1#1: start worker process 20
+2023/11/10 12:32:13 [notice] 1#1: start worker process 21
+2023/11/10 12:32:13 [notice] 1#1: start worker process 22
+2023/11/10 12:32:13 [notice] 1#1: start worker process 23
+2023/11/10 12:32:13 [notice] 1#1: start worker process 24
+2023/11/10 12:32:13 [notice] 1#1: start worker process 25
+2023/11/10 12:32:24 [error] 20#20: *1 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/10 12:34:46 [error] 21#21: *2 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/10 12:34:49 [error] 22#22: *3 open() "/var/www/phpDemoSite/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /favicon.ico HTTP/1.1", host: "phpdemosite.loc", referrer: "http://phpdemosite.loc/basket.php"
+2023/11/10 12:35:48 [error] 23#23: *6 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/10 12:35:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/10 12:35:59 [notice] 20#20: gracefully shutting down
+2023/11/10 12:35:59 [notice] 21#21: gracefully shutting down
+2023/11/10 12:35:59 [notice] 23#23: gracefully shutting down
+2023/11/10 12:35:59 [notice] 23#23: exiting
+2023/11/10 12:35:59 [notice] 22#22: gracefully shutting down
+2023/11/10 12:35:59 [notice] 24#24: gracefully shutting down
+2023/11/10 12:35:59 [notice] 25#25: gracefully shutting down
+2023/11/10 12:35:59 [notice] 20#20: exiting
+2023/11/10 12:35:59 [notice] 21#21: exiting
+2023/11/10 12:35:59 [notice] 23#23: exit
+2023/11/10 12:35:59 [notice] 22#22: exiting
+2023/11/10 12:35:59 [notice] 24#24: exiting
+2023/11/10 12:35:59 [notice] 25#25: exiting
+2023/11/10 12:35:59 [notice] 20#20: exit
+2023/11/10 12:35:59 [notice] 21#21: exit
+2023/11/10 12:35:59 [notice] 22#22: exit
+2023/11/10 12:35:59 [notice] 24#24: exit
+2023/11/10 12:35:59 [notice] 25#25: exit
+2023/11/10 12:36:00 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/11/10 12:36:00 [notice] 1#1: worker process 23 exited with code 0
+2023/11/10 12:36:00 [notice] 1#1: worker process 24 exited with code 0
+2023/11/10 12:36:00 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/10 12:36:00 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/11/10 12:36:00 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/11/10 12:36:00 [notice] 1#1: worker process 20 exited with code 0
+2023/11/10 12:36:00 [notice] 1#1: worker process 21 exited with code 0
+2023/11/10 12:36:00 [notice] 1#1: worker process 22 exited with code 0
+2023/11/10 12:36:00 [notice] 1#1: worker process 25 exited with code 0
+2023/11/10 12:36:00 [notice] 1#1: exit
+2023/11/10 22:51:39 [notice] 1#1: using the "epoll" event method
+2023/11/10 22:51:39 [notice] 1#1: nginx/1.24.0
+2023/11/10 22:51:39 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/11/10 22:51:39 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/11/10 22:51:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/10 22:51:39 [notice] 1#1: start worker processes
+2023/11/10 22:51:39 [notice] 1#1: start worker process 20
+2023/11/10 22:51:39 [notice] 1#1: start worker process 21
+2023/11/10 22:51:39 [notice] 1#1: start worker process 22
+2023/11/10 22:51:39 [notice] 1#1: start worker process 23
+2023/11/10 22:51:39 [notice] 1#1: start worker process 24
+2023/11/10 22:51:39 [notice] 1#1: start worker process 25
+2023/11/10 22:52:34 [error] 21#21: *2 open() "/var/www/phpDemoSite/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/11/10 22:57:12 [error] 24#24: *9 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/10 23:06:38 [error] 25#25: *10 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/10 23:06:46 [error] 25#25: *10 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/10 23:07:12 [error] 20#20: *11 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/10 23:17:12 [error] 20#20: *12 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/10 23:27:12 [error] 20#20: *13 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/10 23:36:38 [error] 20#20: *14 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/10 23:37:12 [error] 20#20: *15 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/10 23:47:12 [error] 20#20: *16 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/10 23:57:12 [error] 20#20: *17 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/11 00:06:39 [error] 20#20: *41 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/11 00:07:12 [error] 20#20: *43 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/11 00:13:05 [error] 21#21: *63 open() "/var/www/phpDemoSite/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /favicon.ico HTTP/1.1", host: "phpdemosite.loc", referrer: "http://phpdemosite.loc/"
+2023/11/11 16:46:36 [notice] 1#1: using the "epoll" event method
+2023/11/11 16:46:36 [notice] 1#1: nginx/1.24.0
+2023/11/11 16:46:36 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/11/11 16:46:36 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/11/11 16:46:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/11 16:46:36 [notice] 1#1: start worker processes
+2023/11/11 16:46:36 [notice] 1#1: start worker process 20
+2023/11/11 16:46:36 [notice] 1#1: start worker process 21
+2023/11/11 16:46:36 [notice] 1#1: start worker process 22
+2023/11/11 16:46:36 [notice] 1#1: start worker process 23
+2023/11/11 16:46:36 [notice] 1#1: start worker process 24
+2023/11/11 16:46:36 [notice] 1#1: start worker process 25
+2023/11/11 16:46:45 [error] 20#20: *2 open() "/var/www/phpDemoSite/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /favicon.ico HTTP/1.1", host: "phpdemosite.loc", referrer: "http://phpdemosite.loc/basket.php"
+2023/11/11 16:49:42 [error] 21#21: *4 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/11 16:49:42 [error] 22#22: *5 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/11 16:49:50 [error] 21#21: *4 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/11 16:49:50 [error] 22#22: *5 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/11 16:53:22 [error] 23#23: *6 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/11 16:53:30 [error] 23#23: *6 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/11 16:54:03 [error] 23#23: *6 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/11 16:55:18 [error] 24#24: *7 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/11 16:59:30 [error] 25#25: *8 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/11 17:01:23 [error] 20#20: *12 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/11 17:11:23 [error] 20#20: *13 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/11 17:13:45 [error] 20#20: *14 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/11 17:13:53 [error] 20#20: *14 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/11 17:21:23 [error] 20#20: *15 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/11 17:31:23 [error] 20#20: *16 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/11 17:41:23 [error] 20#20: *17 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/11 17:43:47 [error] 20#20: *18 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad"
+2023/11/11 17:51:23 [error] 20#20: *19 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/11 17:12:11 [error] 20#20: *20 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/11/11 17:22:11 [error] 20#20: *21 open() "/var/www/phpDemoSite/wpad.dat" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /wpad.dat HTTP/1.1", host: "wpad.beeline"
+2023/12/09 21:55:45 [notice] 1#1: using the "epoll" event method
+2023/12/09 21:55:45 [notice] 1#1: nginx/1.24.0
+2023/12/09 21:55:45 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/12/09 21:55:45 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/12/09 21:55:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/09 21:55:45 [notice] 1#1: start worker processes
+2023/12/09 21:55:45 [notice] 1#1: start worker process 20
+2023/12/09 21:55:45 [notice] 1#1: start worker process 21
+2023/12/09 21:55:45 [notice] 1#1: start worker process 22
+2023/12/09 21:55:45 [notice] 1#1: start worker process 23
+2023/12/09 21:55:45 [notice] 1#1: start worker process 24
+2023/12/09 21:55:45 [notice] 1#1: start worker process 25
+2023/12/09 21:57:46 [error] 20#20: *2 open() "/var/www/phpDemoSite/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/09 21:58:22 [error] 20#20: *2 open() "/var/www/phpDemoSite/php.infp" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /php.infp HTTP/1.1", host: "localhost"
+2023/12/09 21:58:24 [error] 20#20: *2 open() "/var/www/phpDemoSite/php.info" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /php.info HTTP/1.1", host: "localhost"
+2023/12/09 21:59:04 [error] 20#20: *2 open() "/var/www/phpDemoSite/php.info" failed (2: No such file or directory), client: 172.18.0.1, server: phpdemosite.loc, request: "GET /php.info HTTP/1.1", host: "localhost"
